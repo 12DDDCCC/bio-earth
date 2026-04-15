@@ -1,0 +1,30 @@
+{
+  "name": "bio-earth",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "extract-data": "node scripts/extract_species.js",
+    "convert-db": "node scripts/convert_to_sqlite.js"
+  },
+  "dependencies": {
+    "cesium": "^1.139.1",
+    "pinia": "^2.1.0",
+    "pinyin-pro": "^3.28.0",
+    "sql.js": "^1.14.1",
+    "three": "^0.183.2",
+    "vue": "^3.4.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "bfj": "^9.1.3",
+    "json-stream": "^1.0.0",
+    "JSONStream": "^1.3.5",
+    "playwright": "^1.59.1",
+    "vite": "^5.0.0"
+  }
+}
