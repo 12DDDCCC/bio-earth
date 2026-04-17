@@ -50,35 +50,6 @@ bio-earth/
 └── package.json
 ```
 
-## 安装与运行
-
-### 前置要求
-
-- Node.js >= 16
-- npm >= 8
-
-### 安装依赖
-
-```bash
-cd bio-earth
-npm install
-```
-
-### 开发模式
-
-```bash
-npm run dev
-```
-
-访问 http://localhost:3001
-
-### 生产构建
-
-```bash
-npm run build
-npm run preview
-```
-
 ## 数据文件说明
 
 ### taxonomy 数据
